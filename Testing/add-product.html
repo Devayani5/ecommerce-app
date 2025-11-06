@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Add Product to Backend</h2>
+  <button onclick="addProduct()">Add Sample Product</button>
+
+  <script>
+    async function addProduct() {
+      const res = await fetch('http://localhost:5000/api/products', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: 'Wireless Mouse',
+          price: 899,
+          description: 'Ergonomic wireless mouse with USB receiver',
+          stock: 25,
+          category: 'Accessories',
+          image: 'https://example.com/mouse.jpg'
+        })
+      });
+      const data = await res.json();
+      console.log(data);
+      alert('✅ Product added successfully! Check console.');
+    }
+  </script>
+</body>
+</html>
