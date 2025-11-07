@@ -1,0 +1,53 @@
+cd backend
+npm start
+
+
+cd frontend
+nom start
+
+connect GitHub:
+git init
+git remote add origin https://github.com/Devayani5/ecommerce-app.git
+git add .
+git commit -m "Initial project setup"
+git branch -M main
+git push -u origin main
+
+
+
+---
+
+### 🩷 What to Do Now
+1. Open your `README.md` in **VS Code**  
+2. Delete everything inside it.  
+3. **Paste** the above content completely.  
+4. Save the file.  
+
+Then, in the VS Code terminal, run:
+
+```bash
+git add README.md
+git commit -m "Resolved merge conflict and updated README.md"
+git push -u origin main
+
+
+
+https://chatgpt.com/share/690cd532-733c-8003-92c2-bad76def2994
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://chatgpt.com/share/690cd57a-0cc0-800f-936b-c91b8fa9b199
+
